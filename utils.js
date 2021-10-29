@@ -1,5 +1,5 @@
 //here we are going to define some utility function like generate token 
-import jwt from 'jsonnwebtoken';
+import jwt from 'jsonwebtoken';
 
 export const generateToken = (user) => {
   return jwt.sign(
