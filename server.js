@@ -1,13 +1,15 @@
 import express from 'express';
 import mongoose from 'mongoose';
+import dotenv from 'dotenv'
 import userRouter from './routers/userRouter.js';
 import productRouter from './routers/productRouter.js';
-import {} from "dotenv/config";
 
 
 
 
 
+
+dotenv.config();
 const app = express();
 // mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/hairsoofine', {
 //   useNewUrlParser: true,
